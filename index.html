@@ -203,33 +203,33 @@
     <!-- ==================== PROJECTS ==================== -->
     <section class="section projects" id="projects">
       <div class="container">
-        <h2 class="section-heading reveal">Projects</h2>
+        <h2 class="section-heading reveal">My Projects</h2>
         <div class="projects-grid">
           <div class="project-card reveal">
             <div class="project-image">
-              <img src="project1.jpg" alt="Project 1">
-              <div class="project-overlay">
-                <h3>Data Dashboard</h3>
-                <p>Interactive Power BI analytics dashboard</p>
-              </div>
+              <img src="project1.jpg" alt="Home Automation System">
+            </div>
+            <div class="project-content">
+              <h3>Home Automation System</h3>
+              <p>Smart system to control home devices remotely using automation technologies.</p>
             </div>
           </div>
           <div class="project-card reveal">
             <div class="project-image">
-              <img src="project2.jpg" alt="Project 2">
-              <div class="project-overlay">
-                <h3>Python Analysis</h3>
-                <p>Data cleaning & visualization project</p>
-              </div>
+              <img src="project2.jpg" alt="Heart Disease Assistance Website">
+            </div>
+            <div class="project-content">
+              <h3>Heart Disease Assistance Website</h3>
+              <p>A web application that helps users predict and monitor heart disease using data analysis.</p>
             </div>
           </div>
           <div class="project-card reveal">
             <div class="project-image">
-              <img src="project3.jpg" alt="Project 3">
-              <div class="project-overlay">
-                <h3>SQL Database</h3>
-                <p>Relational database design & queries</p>
-              </div>
+              <img src="project3.jpg" alt="Smart Chess Game">
+            </div>
+            <div class="project-content">
+              <h3>Smart Chess Game</h3>
+              <p>An intelligent chess game with smart logic and user interaction.</p>
             </div>
           </div>
         </div>
@@ -240,54 +240,97 @@
     <section class="section testimonials" id="testimonials">
       <div class="container">
         <h2 class="section-heading reveal">Testimonials</h2>
-        <div class="carousel reveal">
-          <button class="carousel-btn carousel-prev" aria-label="Previous testimonial">
+        <div class="testimonial-slider reveal">
+          <button class="slider-btn slider-prev" id="sliderPrev" aria-label="Previous testimonial">
             <i class="fas fa-chevron-left"></i>
           </button>
 
-          <div class="carousel-track-wrapper">
-            <div class="carousel-track" id="carouselTrack">
-              <!-- Slide 1 -->
+          <div class="slider-viewport" id="sliderViewport">
+            <div class="slider-track" id="testimonialTrack">
               <div class="testimonial-card">
-                <img src="avatar1.jpg" alt="Client avatar" class="testimonial-avatar">
+                <img src="client1.jpg" alt="Ahmed Hassan" class="testimonial-avatar">
                 <h3 class="testimonial-name">Ahmed Hassan</h3>
+                <span class="testimonial-role">Project Manager</span>
                 <p class="testimonial-text">
                   "Youssef delivered excellent data insights that helped our team make
-                  better decisions. Highly professional and detail-oriented."
+                  better decisions. Very professional and delivered great results!"
                 </p>
                 <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
               </div>
 
-              <!-- Slide 2 -->
               <div class="testimonial-card">
-                <img src="avatar2.jpg" alt="Client avatar" class="testimonial-avatar">
+                <img src="client2.jpg" alt="Sara Mohamed" class="testimonial-avatar">
                 <h3 class="testimonial-name">Sara Mohamed</h3>
+                <span class="testimonial-role">Business Analyst</span>
                 <p class="testimonial-text">
-                  "Outstanding work on our analytics dashboard. Youssef is skilled,
-                  responsive, and always meets deadlines."
+                  "Outstanding work on our analytics dashboard. Amazing data analysis
+                  skills and fast delivery — always meets deadlines."
                 </p>
                 <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
               </div>
 
-              <!-- Slide 3 -->
               <div class="testimonial-card">
-                <img src="avatar3.jpg" alt="Client avatar" class="testimonial-avatar">
+                <img src="client3.jpg" alt="Omar Ali" class="testimonial-avatar">
                 <h3 class="testimonial-name">Omar Ali</h3>
+                <span class="testimonial-role">Software Developer</span>
                 <p class="testimonial-text">
-                  "A talented data analyst with strong problem-solving skills.
+                  "A talented analyst with strong problem-solving skills.
                   I would definitely recommend working with Youssef."
+                </p>
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              </div>
+
+              <div class="testimonial-card">
+                <img src="client4.jpg" alt="Ahmed Ali" class="testimonial-avatar">
+                <h3 class="testimonial-name">Ahmed Ali</h3>
+                <span class="testimonial-role">Startup Founder</span>
+                <p class="testimonial-text">
+                  "His Power BI dashboards transformed how we track KPIs.
+                  Clear visuals, clean data, and excellent communication throughout."
+                </p>
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              </div>
+
+              <div class="testimonial-card">
+                <img src="client5.jpg" alt="Sarah Mohamed" class="testimonial-avatar">
+                <h3 class="testimonial-name">Sarah Mohamed</h3>
+                <span class="testimonial-role">Marketing Director</span>
+                <p class="testimonial-text">
+                  "Reliable, detail-oriented, and creative. Youssef turned complex
+                  datasets into actionable reports our whole team could use."
+                </p>
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              </div>
+
+              <div class="testimonial-card">
+                <img src="client6.jpg" alt="Khaled Ibrahim" class="testimonial-avatar">
+                <h3 class="testimonial-name">Khaled Ibrahim</h3>
+                <span class="testimonial-role">Data Engineer</span>
+                <p class="testimonial-text">
+                  "Great SQL skills and Python scripting. He cleaned messy data and
+                  built pipelines that saved us hours every week."
+                </p>
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              </div>
+
+              <div class="testimonial-card">
+                <img src="client7.jpg" alt="Nour El-Din" class="testimonial-avatar">
+                <h3 class="testimonial-name">Nour El-Din</h3>
+                <span class="testimonial-role">IT Consultant</span>
+                <p class="testimonial-text">
+                  "Professional from start to finish. Youssef understands business
+                  needs and delivers solutions that actually make an impact."
                 </p>
                 <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
               </div>
             </div>
           </div>
 
-          <button class="carousel-btn carousel-next" aria-label="Next testimonial">
+          <button class="slider-btn slider-next" id="sliderNext" aria-label="Next testimonial">
             <i class="fas fa-chevron-right"></i>
           </button>
 
-          <!-- Carousel dots -->
-          <div class="carousel-dots" id="carouselDots"></div>
+          <div class="slider-dots" id="sliderDots"></div>
         </div>
       </div>
     </section>
