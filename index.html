@@ -17,9 +17,13 @@
 
   <!-- Animated background -->
   <div class="animated-bg" aria-hidden="true">
+    <div class="gradient-overlay"></div>
+    <canvas id="particleCanvas"></canvas>
     <span class="blob blob-1"></span>
     <span class="blob blob-2"></span>
     <span class="blob blob-3"></span>
+    <span class="floating-shape shape-1"></span>
+    <span class="floating-shape shape-2"></span>
   </div>
 
   <!-- ==================== NAVBAR ==================== -->
@@ -102,9 +106,36 @@
           <div class="about-content reveal">
             <h3 class="about-name">Youssef Ayman</h3>
             <p class="about-bio">
-              I am a student at High Obour Institute in the department of Computer Science.
-              I am passionate about data analysis and technology.
+              I am a Computer Science student and Data Analyst specializing in Business Intelligence.
+              I leverage tools like Power BI, SQL Server, and Python (Streamlit) to turn raw data into
+              meaningful business insights. Whether I am designing efficient database architectures or
+              building interactive dashboards, I focus on delivering clean, accurate, and scalable results.
+              My background in sales and coaching has taught me how to communicate effectively, understand
+              client pain points, and deliver solutions that truly add value.
             </p>
+
+            <div class="about-competencies">
+              <h4><i class="fas fa-star"></i> Core Competencies</h4>
+              <div class="competencies-grid">
+                <div class="competency-card reveal">
+                  <div class="competency-icon"><i class="fas fa-chart-pie"></i></div>
+                  <p>Data Modeling &amp; Visualization (Power BI, Excel)</p>
+                </div>
+                <div class="competency-card reveal">
+                  <div class="competency-icon"><i class="fas fa-database"></i></div>
+                  <p>SQL Database Management</p>
+                </div>
+                <div class="competency-card reveal">
+                  <div class="competency-icon"><i class="fab fa-python"></i></div>
+                  <p>Python for Data Analysis</p>
+                </div>
+                <div class="competency-card reveal">
+                  <div class="competency-icon"><i class="fas fa-comments"></i></div>
+                  <p>Strategic Thinking &amp; Client Communication</p>
+                </div>
+              </div>
+            </div>
+
             <div class="about-goals">
               <h4><i class="fas fa-bullseye"></i> My Goals</h4>
               <p>
@@ -248,7 +279,9 @@
           <div class="slider-viewport" id="sliderViewport">
             <div class="slider-track" id="testimonialTrack">
               <div class="testimonial-card">
-                <img src="client1.jpg" alt="Ahmed Hassan" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client1.jpg" alt="Ahmed Hassan" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Ahmed Hassan</h3>
                 <span class="testimonial-role">Project Manager</span>
                 <p class="testimonial-text">
@@ -259,7 +292,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client2.jpg" alt="Sara Mohamed" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client2.jpg" alt="Sara Mohamed" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Sara Mohamed</h3>
                 <span class="testimonial-role">Business Analyst</span>
                 <p class="testimonial-text">
@@ -270,7 +305,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client3.jpg" alt="Omar Ali" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client3.jpg" alt="Omar Ali" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Omar Ali</h3>
                 <span class="testimonial-role">Software Developer</span>
                 <p class="testimonial-text">
@@ -281,7 +318,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client4.jpg" alt="Ahmed Ali" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client4.jpg" alt="Ahmed Ali" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Ahmed Ali</h3>
                 <span class="testimonial-role">Startup Founder</span>
                 <p class="testimonial-text">
@@ -292,7 +331,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client5.jpg" alt="Sarah Mohamed" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client5.jpg" alt="Sarah Mohamed" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Sarah Mohamed</h3>
                 <span class="testimonial-role">Marketing Director</span>
                 <p class="testimonial-text">
@@ -303,7 +344,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client6.jpg" alt="Khaled Ibrahim" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client6.jpg" alt="Khaled Ibrahim" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Khaled Ibrahim</h3>
                 <span class="testimonial-role">Data Engineer</span>
                 <p class="testimonial-text">
@@ -314,7 +357,9 @@
               </div>
 
               <div class="testimonial-card">
-                <img src="client7.jpg" alt="Nour El-Din" class="testimonial-avatar">
+                <div class="avatar-wrapper">
+                  <img src="client7.jpg" alt="Nour El-Din" class="testimonial-avatar">
+                </div>
                 <h3 class="testimonial-name">Nour El-Din</h3>
                 <span class="testimonial-role">IT Consultant</span>
                 <p class="testimonial-text">
